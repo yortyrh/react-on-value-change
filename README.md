@@ -16,7 +16,7 @@ yarn add @yortyrh/react-on-value-change
 
 ## Example
 
-```typescript
+```tsx
 import { useState } from 'react';
 import * as ReactDOM from 'react-dom';
 import { useValueChange } from '@yortyrh/react-on-value-change';
