@@ -1,4 +1,4 @@
-# React useValueChange &middot; ![](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+# React useValueChange &middot; ![](https://github.com/yortyrh/react-on-value-change/actions/workflows/main.yml/badge.svg)
 
 Subscribe to value changes and call the onChange function.
 This make sure calls to the onChange method are done in changes order.
