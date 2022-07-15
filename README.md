@@ -17,9 +17,8 @@ yarn add @yortyrh/react-on-value-change
 ## Example
 
 ```tsx
-import { useState } from 'react';
-import * as ReactDOM from 'react-dom';
-import { useValueChange } from '@yortyrh/react-on-value-change';
+import { useValueChange } from "@yortyrh/react-on-value-change";
+import { useState } from "react";
 
 function waitMillis(millis: number): Promise<void> {
   return new Promise<void>((res) => setTimeout(res, millis));
@@ -30,12 +29,12 @@ async function delayHello(who: string): Promise<string> {
   return `Hello ${who}`;
 }
 
-const App = () => {
-  const [text, setText] = useState('');
-  const [greeting, setGreeting] = useState('');
+export function Sample() {
+  const [text, setText] = useState("");
+  const [greeting, setGreeting] = useState("");
 
   useValueChange(text, async (value) => {
-    console.log('value: ', value);
+    console.log("value: ", value);
     setGreeting(await delayHello(value));
   });
 
@@ -50,7 +49,5 @@ const App = () => {
       <div>{greeting}</div>
     </div>
   );
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+}
 ```
