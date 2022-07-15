@@ -6,7 +6,7 @@ The onChange method can be a promise, no additional on change method called if t
 
 ## Install
 
-```
+```bash
 npm install --save @yortyrh/react-on-value-change
 
 //or
@@ -16,7 +16,7 @@ yarn add @yortyrh/react-on-value-change
 
 ## Example
 
-```
+```typescript
 import { useState } from 'react';
 import * as ReactDOM from 'react-dom';
 import { useValueChange } from '@yortyrh/react-on-value-change';
