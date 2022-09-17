@@ -16,6 +16,7 @@ yarn add @yortyrh/react-on-value-change
 
 ## Example
 
+**Demo:** https://react-on-value-change.netlify.app
 ```tsx
 import * as React from 'react';
 import { useValueChange } from '@yortyrh/react-on-value-change';
