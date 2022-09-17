@@ -1,0 +1,55 @@
+.SectionTitle {
+  margin-bottom: 0.6rem;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.Greeting {
+  padding: 4px;
+}
+
+.SearchInput {
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.Movies {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 0.4rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  &__Item {
+    border: 1px solid #d3cfcf;
+    padding: 4px;
+    border-radius: 4px;
+    width: 300px;
+    position: relative;
+    &__Img {
+      height: 445px;
+      width: 300px;
+      object-fit: cover;
+      position: relative;
+      display: block;
+      &:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #e1dede;
+      }
+    }
+    &__ImgLink {
+      width: 100%;
+    }
+  }
+}
