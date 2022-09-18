@@ -79,7 +79,11 @@ const App = () => {
 
   return (
     <section>
-      <h1>React useValueChange examples</h1>
+      <h1 className="PageTitle">
+        <div>React useValueChange examples</div>
+        <img src='https://github.com/yortyrh/react-on-value-change/actions/workflows/main.yml/badge.svg' alt='Github Build' />
+        <img src='https://api.netlify.com/api/v1/badges/1034341c-71c4-4034-8562-d79f383fb2e0/deploy-status' alt='Netlify Status' />
+      </h1>
       <article>
         <h2 className="SectionTitle">Hello Who</h2>
         <input

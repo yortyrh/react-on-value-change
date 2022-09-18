@@ -1,3 +1,16 @@
+.PageTitle {
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &__Text {
+    text-decoration: underline;
+  }
+  &__Img {
+    display: block;
+  }
+}
+
 .SectionTitle {
   margin-bottom: 0.6rem;
   text-decoration: underline;
