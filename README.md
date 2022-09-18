@@ -1,4 +1,4 @@
-# React useValueChange &middot; ![](https://github.com/yortyrh/react-on-value-change/actions/workflows/main.yml/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/1034341c-71c4-4034-8562-d79f383fb2e0/deploy-status)](https://app.netlify.com/sites/react-on-value-change/deploys)
+# React useValueChange &middot; ![](https://github.com/yortyrh/react-on-value-change/actions/workflows/main.yml/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/1034341c-71c4-4034-8562-d79f383fb2e0/deploy-status)](https://app.netlify.com/sites/react-on-value-change/deploys) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 Subscribe to value changes and call the onChange function.
 This make sure calls to the onChange method are done in changes order.
