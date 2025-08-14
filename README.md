@@ -8,10 +8,6 @@ The onChange method can be a promise, no additional on change method called if t
 
 ```bash
 npm install --save @yortyrh/react-on-value-change
-
-//or
-
-yarn add @yortyrh/react-on-value-change
 ```
 
 ## Example
