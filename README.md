@@ -125,7 +125,7 @@ const App = () => {
                   className="Movies__Item__Img"
                 />
               </a>
-              <h4>{movie.Title}</h4>
+              <h3>{movie.Title}</h3>
               <p>
                 <strong>Type:</strong> {movie.Type}
               </p>
